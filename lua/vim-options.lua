@@ -10,6 +10,5 @@ vim.g.mapleader = " "
 vim.cmd("set number")
 vim.cmd("set relativenumber")
 
-vim.keymap.set({'n', 'v'}, '<leader>p', '"+p')
-vim.keymap.set({'n', 'v'}, '<leader>y', '"+yy')
-
+vim.keymap.set({ 'n', 'v' }, '<leader>p', '"+p')
+vim.keymap.set({ 'n', 'v' }, '<leader>y', '"+yy')
