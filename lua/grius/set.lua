@@ -1,8 +1,14 @@
+-- Make cursor always block
 vim.opt.guicursor = ""
 
+-- Disable mouse
+vim.opt.mouse = ""
+
+-- Set number lines
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+-- Default indent width
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
