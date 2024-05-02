@@ -4,8 +4,12 @@ return {
         lazy = false,
         priority = 1000,
         opts = {},
+    },
+    {
+        "fynnfluegge/monet.nvim",
+        name = "monet",
         config = function()
-            vim.cmd.colorscheme "tokyonight-night"
+            vim.cmd.colorscheme "monet"
         end
     }
 }
