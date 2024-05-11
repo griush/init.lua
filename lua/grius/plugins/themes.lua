@@ -4,6 +4,9 @@ return {
 		lazy = false,
 		priority = 1000,
 		opts = {},
+        config = function()
+			vim.cmd.colorscheme("tokyonight-night")
+        end,
 	},
 	{
 		"fynnfluegge/monet.nvim",
@@ -11,8 +14,5 @@ return {
 	},
 	{
 		"ellisonleao/gruvbox.nvim",
-        config = function()
-			vim.cmd.colorscheme("gruvbox")
-        end,
 	},
 }
