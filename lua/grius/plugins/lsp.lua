@@ -12,7 +12,7 @@ return {
 				ensure_installed = {
 					"clangd",
 					"lua_ls",
-                    "zls",
+					"zls",
 				},
 			})
 		end,
@@ -29,7 +29,10 @@ return {
 			lspconfig.zls.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.eslint.setup({
+			lspconfig.html.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.tsserver.setup({
 				capabilities = capabilities,
 			})
 			lspconfig.clangd.setup({
