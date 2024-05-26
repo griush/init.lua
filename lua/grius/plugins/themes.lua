@@ -3,7 +3,7 @@ return {
         "folke/tokyonight.nvim",
         priority = 1000,
         config = function()
-            local transparent = false -- set to true if you would like to enable transparency
+            local transparent = true -- set to true if you would like to enable transparency
 
             require("tokyonight").setup({
                 style = "night",
