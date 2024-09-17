@@ -1,6 +1,3 @@
--- Make cursor always block
-vim.opt.guicursor = ""
-
 -- Disable mouse
 vim.opt.mouse = ""
 
