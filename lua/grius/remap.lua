@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>ex", vim.cmd.Ex, { desc = "Open file explorer" })
 
-vim.keymap.set("n", "<leader>nh", ":nohl<CR>")
+vim.keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Remove highlighting of searched words" })
 
 -- window management
 vim.keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
