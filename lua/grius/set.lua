@@ -32,6 +32,8 @@ vim.opt.smartindent = true
 
 -- Better search
 vim.opt.ignorecase = true
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
 vim.opt.smartcase = true
 
 -- Clipboard
@@ -49,4 +51,5 @@ vim.opt.backup = false
 
 vim.opt.updatetime = 50
 
+vim.opt.termguicolors = true
 vim.cmd('colorscheme lunaperche')
