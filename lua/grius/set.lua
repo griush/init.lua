@@ -52,4 +52,3 @@ vim.opt.backup = false
 vim.opt.updatetime = 50
 
 vim.opt.termguicolors = true
-vim.cmd('colorscheme lunaperche')

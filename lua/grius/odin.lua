@@ -1,4 +1,4 @@
-odin_mode = false
+local odin_mode = false
 
 function OdinMode()
     if not odin_mode then
