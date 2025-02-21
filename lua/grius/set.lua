@@ -18,7 +18,7 @@ vim.api.nvim_create_user_command('ToggleIndent', ToggleIndent, {})
 -- Disable mouse
 vim.opt.mouse = ''
 
--- Set number lines
+-- Set relative number lines
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -52,3 +52,4 @@ vim.opt.backup = false
 vim.opt.updatetime = 50
 
 vim.opt.termguicolors = true
+
