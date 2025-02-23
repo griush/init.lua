@@ -39,8 +39,8 @@ vim.opt.smartcase = true
 -- Clipboard
 vim.opt.clipboard = 'unnamedplus'
 
-vim.opt.scrolloff = 8
-vim.opt.sidescrolloff = 8
+vim.opt.scrolloff = 4
+vim.opt.sidescrolloff = 4
 
 vim.opt.cursorline = true
 

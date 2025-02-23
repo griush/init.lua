@@ -1,3 +1,4 @@
+-- grius theme. based on gruvbox
 local theme = {}
 
 local function highlight(group, fg, bg, style)
@@ -28,12 +29,15 @@ theme.apply = function()
 
   highlight("Comment", c.gray, nil, "italic")
   highlight("Keyword", c.red, nil, "bold")
+  highlight("Statement", c.red, nil, "bold")
+  highlight("Identifier", c.fg, nil, nil)
 
   highlight("Boolean", c.purple, nil, "bold")
   highlight("Float", c.purple, nil, nil)      
   highlight("String", c.green, nil, nil)
   highlight("Character", c.green, nil, nil)
   highlight("Constant", c.purple, nil, nil)
+  highlight("Special", c.purple, nil, nil)
 
   highlight("Function", c.yellow, nil, nil)
   highlight("Type", c.yellow, nil, nil)
