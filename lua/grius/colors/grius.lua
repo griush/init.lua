@@ -10,7 +10,7 @@ local function highlight(group, fg, bg, style)
 end
 
 theme.colors = {
-  bg = "#1d2021",
+  bg = "#030303",
   fg = "#fbf1c7",
   red = "#fb4934",
   green = "#b8bb26",
