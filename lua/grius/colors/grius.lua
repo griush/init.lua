@@ -36,6 +36,7 @@ theme.apply = function()
   highlight("Include", c.red, nil, nil)
   highlight("Macro", c.red, nil, nil)
   highlight("Structure", c.red, nil, nil)
+  highlight("Operator", c.red, nil, nil)
 
   highlight("Boolean", c.purple, nil, nil)
   highlight("Float", c.purple, nil, nil)      
