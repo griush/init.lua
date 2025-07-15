@@ -2,6 +2,6 @@
 require("grius.set")
 require("grius.remap")
 
--- colorscheme
-require("grius.colors.grius").apply()
+-- lazy
+require("grius.lazy")
 
